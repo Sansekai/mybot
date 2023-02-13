@@ -23,7 +23,6 @@ body {
   position: relative;
 }
 
-#profilePicture,
 #profilePicture img {
   position: relative;
   width: 96px;
@@ -31,6 +30,7 @@ body {
   display: block;
   margin: 35px auto 20px;
   border-radius: 50%;
+  border: 2px solid rgb(160, 252, 252);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -169,6 +169,7 @@ body {
   width: auto;
   height: auto;
   margin: 56px;
+  border: 2px solid rgb(160, 252, 252);
   background-color: var(--accentColor);
   /* transform: rotate(32deg); */
   transform: scale(0);
